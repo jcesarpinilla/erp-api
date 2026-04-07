@@ -10,10 +10,10 @@ API_KEY = os.getenv("API_KEY")
 # FUNCIÓN DE CONEXIÓN
 def get_conn():
     return psycopg2.connect(
-        host="TU_HOST",
+        host="https://lfybdquesopbadahgvps.supabase.co",
         database="postgres",
         user="postgres",
-        password="TU_PASSWORD",
+        password="TsvmBnMuFq4zgZIw",
         port="5432"
     )
 
