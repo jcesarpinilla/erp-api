@@ -5,7 +5,7 @@ import os
 app = FastAPI()
 
 # API KEY desde entorno
-API_KEY = os.getenv("API_KEY")
+API_KEY = os.getenv("P@ssw0rdapi$")
 
 # FUNCIÓN DE CONEXIÓN
 def get_conn():
